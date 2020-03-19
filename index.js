@@ -14,7 +14,7 @@ function addToCart(item) {
  let obj = {}
  obj.itemName = item
  obj.itemPrice = Math.floor(Math.random()* 100)
- cart.unshift(obj)
+ cart.push(obj)
  return `${item} has been added to your cart.`
 }
 
